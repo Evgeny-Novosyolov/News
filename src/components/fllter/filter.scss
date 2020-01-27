@@ -1,0 +1,32 @@
+.filter {
+    label, input, select {
+        width: 100%; 
+    }
+    input, select{
+        padding: 5px;
+
+    }
+    &__span{
+        display: block;
+        margin: 10px 0 15px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    &__box{
+        margin-bottom: 20px;
+    }
+    &__sort{
+        padding: 5px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        min-height: 30px;
+        input{
+            width: auto;
+            // display: none;
+        }
+
+    }
+}

@@ -1,0 +1,16 @@
+.favorites {
+    border: 1px solid black;
+    &__list{
+        display: block;
+        border: 1px solid black;
+    }
+    &__title{
+        padding: 5px;
+    }
+}
+.table{
+    color: #000;
+}
+.table th, .table td {
+    vertical-align: middle;
+}

@@ -1,0 +1,18 @@
+.events-details{
+    &__wrapper{
+
+    }
+    &__list{
+        margin: 0;
+        padding-left: 30px;
+    }
+    &__item{
+        padding: 5px;
+        line-height: 1.2;
+    }
+    &__button{
+       margin-top: 5px;
+       display: block;
+       border-bottom: 1px solid black;
+    }
+}

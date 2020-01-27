@@ -1,0 +1,13 @@
+.box{
+    margin-bottom: 30px;
+    &__wrapper-img {
+        max-width: 500px;
+        height: auto;
+        img{
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+}
